@@ -22,5 +22,14 @@
   },
   "peerDependencies": {
     "react": "^16.11.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcerati/react-mercure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bcerati/react-mercure/issues"
+  },
+  "homepage": "https://github.com/bcerati/react-mercure#readme"
 }
