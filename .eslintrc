@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "rules": {
+    "react/prop-types": 2,
+    "no-console": 1,
+    "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": 1
+  },
+  "plugins": ["react", "jsx-a11y", "react-hooks"],
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

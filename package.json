@@ -1,0 +1,26 @@
+{
+  "name": "@cerati/react-mercure",
+  "version": "0.0.1",
+  "description": "Mercure subscription using React",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel index.js --out-dir dist --copy-files --ignore __tests__,__snapshots__ && npm run build-components",
+    "build-components": "NODE_ENV=production babel src --out-dir dist/src --copy-files --ignore __tests__,__snapshots__"
+  },
+  "author": "Boris Cerati",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-react": "^7.6.3",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0"
+  }
+}
